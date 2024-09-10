@@ -47,4 +47,5 @@ father returns child execution status detected with ``` (WIFEXITED(status) && (W
 Aside from writing in stderr (2), returns 1, reporting an error status.
 
 ## tests
-
+Test it with ```bash make test```.
+There is a Makefile in folder tests to launch two .sh scripts.
